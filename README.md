@@ -6,20 +6,20 @@ Independent live editor for the supported Football Manager 27 build. Not affilia
 
 | System | Standalone download |
 | --- | --- |
-| Linux / CachyOS x86-64 | [Download Touchline27-CachyOS](https://github.com/Gh0stLyfeX/Touchline27/releases/latest/download/Touchline27-CachyOS) |
+| Arch Linux x86-64 | [Download Touchline27-Linux-Arch](https://github.com/Gh0stLyfeX/Touchline27/releases/latest/download/Touchline27-Linux-Arch) |
 | Windows 10/11 x86-64 | [Download Touchline27-Windows.exe](https://github.com/Gh0stLyfeX/Touchline27/releases/latest/download/Touchline27-Windows.exe) |
 | Source code for both editions | [Download source package](https://github.com/Gh0stLyfeX/Touchline27/releases/latest/download/Touchline27-GitHub-ready.zip) |
 
 These are standalone programs: no Python installation or source-code setup is needed. Download the file for the computer where FM27 runs. The Windows executable does not run directly as a Linux application.
 
-### Linux / CachyOS
+### Arch Linux
 
-1. Download **Touchline27-CachyOS** above and keep it in a convenient folder.
+1. Download **Touchline27-Linux-Arch** above and keep it in a convenient folder.
 2. Right-click the downloaded file, open **Properties → Permissions**, and enable **Allow executing file as program** (wording depends on your file manager). Browsers may remove executable permissions during download.
 3. Double-click the file. If your file manager asks what to do, choose **Execute**.
-4. Alternatively, open a terminal in its folder and run `chmod +x Touchline27-CachyOS`, then `./Touchline27-CachyOS`.
+4. Alternatively, open a terminal in its folder and run `chmod +x Touchline27-Linux-Arch`, then `./Touchline27-Linux-Arch`.
 
-No extraction, Python setup or FUSE is required on the tested CachyOS desktop. You may move or rename the executable. Keep it executable after copying it.
+No extraction, Python setup or FUSE is required on the tested Arch Linux desktop. You may move or rename the executable. Keep it executable after copying it.
 
 ### Windows
 
@@ -98,7 +98,7 @@ Supported `game_plugin.dll` SHA-256:
 bc940e472418fc5c214208d7cf30fecf600f689b6f9d71c11ba19a2df0fe057f
 ```
 
-Read-only real game discovery was checked on CachyOS/Proton. Both backends passed the 28 controlled-process/UI tests, covering write/readback, undo, stale record rejection, rollback, contract dates, presets and tactical packing. The Windows standalone launch and Win32 process/module access were tested under Wine. Native Windows FM27 attachment and actual game behavior after applying edits still need verification in FM.
+Read-only real game discovery was checked on Arch-based Linux/Proton. Both backends passed the 28 controlled-process/UI tests, covering write/readback, undo, stale record rejection, rollback, contract dates, presets and tactical packing. The Windows standalone launch and Win32 process/module access were tested under Wine. Native Windows FM27 attachment and actual game behavior after applying edits still need verification in FM.
 
 This is an experimental editor with a limited supported layout, not full FMRTE parity. Transfers/swaps, facilities, stadiums, competitions, freezing values, condition/sharpness restoration, and permanent injury removal are not implemented.
 

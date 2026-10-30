@@ -1,6 +1,6 @@
 # Touchline 27 — Windows Live Editor
 
-Independent FM27 editor for 64-bit Windows 10/11. Same mapped features as the CachyOS edition; not affiliated with FMRTE, Sports Interactive or SEGA.
+Independent FM27 editor for 64-bit Windows 10/11. Same mapped features as the Arch Linux edition; not affiliated with FMRTE, Sports Interactive or SEGA.
 
 ## Start
 

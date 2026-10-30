@@ -1,10 +1,10 @@
 # Touchline 27 v0.3 — Linux Live Editor
 
-A native Linux desktop editor for the locally inspected Football Manager 27 Steam build running through Proton. Built and tested on CachyOS. Independent software, not affiliated with FMRTE, Sports Interactive or SEGA.
+A native Linux desktop editor for the locally inspected Football Manager 27 Steam build running through Proton. Built and tested on Arch Linux. Independent software, not affiliated with FMRTE, Sports Interactive or SEGA.
 
-## Standalone CachyOS executable
+## Standalone Arch Linux executable
 
-Use `Touchline27-CachyOS` from the outputs folder. It is a single executable containing Python, Qt, the icon and all editor modules. No extraction, terminal command, Python installation or FUSE is required on the tested CachyOS desktop. It can be moved or renamed independently of this source folder. Its executable permission is already set on this computer.
+Use `Touchline27-Linux-Arch` from the outputs folder. It is a single executable containing Python, Qt, the icon and all editor modules. No extraction, terminal command, Python installation or FUSE is required on the tested Arch Linux desktop. It can be moved or renamed independently of this source folder. Its executable permission is already set on this computer.
 
 The standalone app saves settings, favourites, journals, game cache and startup logs in `$XDG_DATA_HOME/touchline27`, normally `~/.local/share/touchline27`. Its embedded assets are unpacked temporarily on launch; persistent state is kept outside that temporary folder. This differs from the source version, which uses its adjacent `state/` directory. If startup fails, details are recorded in `startup.log` inside the standalone data directory.
 
